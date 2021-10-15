@@ -20,6 +20,11 @@
     view.backgroundColor = UIColor.greenColor;
     view.frame = self.view.bounds;
     [self.view addSubview:view];
+    
+    UIView *newView = [UIView new];
+    newView.backgroundColor = UIColor.redColor;
+    view.frame = self.view.frame;
+    [self.view addSubview:newView];
 }
 
 
